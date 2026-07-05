@@ -1,15 +1,20 @@
-"use strict"; // treat all JS code as newer version
+// 2nd Topic - DataType :
+//if you want search about Js : 1. TC39.ECMAscript , 2. MDN
+
+"use strict"; // iska matlab - treat all JS code as newer version // ye "use strict" code mein likha jata hai taki sabko newer version samjha jaye matlab sabko ek jaise treat kiya jaye ..
 
 
 // alert( 3 + 3) // we are using nodejs , not browser
-                 // ye browser par run karne ke baad POP aayega na ki nodejs par .
+                 // ye browser par cosole ke andar run karne ke baad POP aayega na ki nodejs par .
 
 
-console.log( 3
-     +
-      3) // code readability should be high
+//console.log(3+3) console.log("shivani") // code not write like that beacuse Readability high ho jati hai..
+//console.log( 3
+//     +
+//      3) // code readability should be high
       // Means ki aise likhne ka koi tarika nhi hai. 
       //aise likhne se readability kharab hoti hai , aur achha nhi lagta hai read karne mein  
+
 
 
 console.log( "Shivani")
