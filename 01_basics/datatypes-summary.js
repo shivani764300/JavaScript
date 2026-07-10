@@ -48,3 +48,37 @@ console.log(typeof bigNumber); // Jab DataType pata karna ho kisi value ka tab h
 //console.log(typeof function); // function
 // console.log(typeof object); // object
 // console.log(typeof bigNumber); // BigInt
+
+
+
+//******************************************************************************************/
+
+// Stack , Heap
+
+// Stack is a used in Primitive DataType.
+// Heap is a used in Non-Primitive DataType.
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+ let myYoutubename = "Shivanisinghdotcom"
+
+ let anothername = myYoutubename
+ anothername = "chaiaurcode"
+
+ console.log(myYoutubename); // Shivanisinghdotcom
+ console.log(anothername); // chaiaurcode
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl" 
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "hitesh@google.com"
+ 
+ console.log(userOne.email); // hitesh@google.com
+ console.log(userTwo.email); // hitesh@google.com
+
+ 
+ 
