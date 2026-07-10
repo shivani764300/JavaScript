@@ -50,10 +50,12 @@ console.log(typeof stringNumber);
 
 
 //******************************************* Operations **********************************************/
+// ye basically itna important nhi hai bas ismein ka karwaya hua code technically use nhi karte hai .
+
 
 let value = 3
-let negValue = -value
-// console.log(negValue);
+let negValue = -value 
+// console.log(negValue); // Output -3
 
 // console.log(2+2);
 // console.log(2-2);
@@ -63,28 +65,30 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " shivani"
 
 let str3 = str1 + str2
-// console.log(str3);
+// console.log(str3); // Output hello shivani
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2); // Output - 12
+// console.log(1 + "2"); // Output - 12
+// console.log("1" + 2 + 2); // Output - 122 aayega ismein pahle hi " " hi aagya hai toh ADD nhi hua hai sabhi value ATTACH ho gya hai . 
+// console.log(1 + 2 + "2"); // Output - 32 kyuki aage mein "" ye nhi laga hai toh practically ADD hogya rhen last value "2" ATTACH hogya 
 
-// console.log( (3 + 4) * 5 % 3);
+// console.log( (3 + 4) * 5 % 3); this is s not technically correct to use for any project .
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); // Output 1
+// console.log(+""); // Output false
 
 let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+++gameCounter; // Output 101 -|
+//                            |- Both Output are same but Tecnically not same beacuse PREFIX and POSTFIX  works are differntly in code 
+gameCounter++; // Output 101 -|  so if you want understant go check MDN PREFIX and POSTFIX meaning .
 console.log(gameCounter);
 
-// link to study
+// link to study ( for more understanding ConversonOperation)
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
